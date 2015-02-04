@@ -1,0 +1,10 @@
+html,
+body {
+  margin: 0; /* Removes the default margin from the body. */
+  height: 100%; /* Allows for cascading usage of % in height */
+  font-family: sans-serif; /* I don't like the default serif */
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
