@@ -32,6 +32,7 @@ nav a:hover { color: red;  /* placeholder - sets colour of link hover state */ }
   vertical-align: middle;
   /* allows the width to be removed with an animated transition */
   width: 170px;
+  margin-left:-20px; /* fixes spacing issues because of the logo*/
 }
 /* all classes applied by javascript start with "js-" */
 .js-remove-logo {
