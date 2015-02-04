@@ -1,0 +1,48 @@
+.declaration-order /* Just for demonstration, doesn't actually exsist */ {
+/* Related property declarations should be in the following order:
+ * Positioning
+ * Box model
+ * Typographic
+ * Visual 
+ */
+ 
+  /* Positioning */
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+  /* Box-model */
+  display: inline-block;
+  float: left;
+  width: 100px;
+  height: 100px;
+
+  /* Typography */
+  font: normal 1em "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+
+  /* Visual */
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 1px;
+  opacity: 1;
+}
+/*
+ * In instances where there is only one declaration,
+ * remove line breaks for readability and faster editing. 
+ */
+.single-declarations { display: none; }
+
+@media (min-width: 480px) {
+/* Place media queries as close to their relevant rule sets whenever possible,
+ * Doing so only makes it easier for folks to miss them in the future. 
+ * Here's a typical setup.
+ */
+.single-declarations { display: inline; }
+
+}
