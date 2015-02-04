@@ -1,0 +1,9 @@
+@font-face { /* Bullet Proof Syntax Example */
+  font-family: 'montserrat-bold';
+  src: url(https://dl.dropboxusercontent.com/u/48784645/montserrat-bold-webfont.eot?#iefix) 
+  format("embedded-opentype"), url(https://dl.dropboxusercontent.com/u/48784645/montserrat-bold-webfont.woff) 
+  format("woff"), 
+  url(https://dl.dropboxusercontent.com/u/48784645/Montserrat-Regular.ttf) 
+  format("truetype"), 
+  url(https://dl.dropboxusercontent.com/u/48784645/montserrat-bold-webfont.svg#montserratregular) format("svg")
+}
