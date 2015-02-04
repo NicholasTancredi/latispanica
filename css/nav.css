@@ -1,0 +1,51 @@
+/*
+ * latispanica v1.0.0
+ * Navigation Styles
+ ========================================================================== */
+
+nav {
+  position: fixed;
+  /* needed because the fixed positionung removes the default 100% width */
+  width: 100%;
+  /* centers everything inside the nav */
+  text-align: center;
+  /* sets the background colour of the navigation */
+  background: #fff;
+}
+nav a {
+  /* the padding sets the height of the nav after shrinkage */
+  padding: 15px 30px;
+  /* needed to vertically center the links */
+  display: inline-block;
+}
+/*
+ * In instances where there is only one declaration,
+ * remove line breaks for readability and faster editing. 
+ */
+nav a:hover { color: red;  /* placeholder - sets colour of link hover state */ }
+.nav-logo {
+  /* fixes the logo shifting right */
+  position: relative;
+  /* fixes the logo shifting right */
+  left: 0;
+  /* vertically centers the links */
+  vertical-align: middle;
+  /* allows the width to be removed with an animated transition */
+  width: 170px;
+}
+/* all classes applied by javascript start with "js-" */
+.js-remove-logo {
+  /* fixes the logo shifting right */
+  left: -90px;
+  /* moves logo out of the viewport */
+  margin-top: -220px;
+  /* needed to make the spacing of the logo go away */
+  padding: 0;
+  /* needed to make the spacing of the logo go away */
+  width: 0;
+}
+nav,
+.nav-logo {
+  /* animates all the transitions */
+  transition: all .6s;
+}
